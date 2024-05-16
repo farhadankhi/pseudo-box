@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1:hover{
+            color: skyblue;
+            background-color: seagreen;
+            font-weight: 700;
+        }
+        .middle-person:focus{
+            color: blue;
+            font-weight: 700;
+        }
+        a:visited{
+            color: red;
+        }
+        li:first-child{
+            color: chocolate;
+        }
+        li:last-child{
+            background-color: cornflowerblue;
+        }
+        li:nth-child(2n){
+            color: crimson;
+        }
+        li:nth-child(2n+1){
+            background-color: darkgray;
+        }
+        h3::before{
+            content: 'Hello ';
+        }
+        .special::after{
+            content: ' gello';
+            background-color: darkkhaki;
+            font-size: 12px;
+        }
+    </style>
+</head>
+<body>
+    <h1>This is normal</h1>
+    <input type="text">
+    <input class="middle-person" type="text">
+    <input type="text">
+    <br>
+    <a href="https://www.google.com/">google a jao</a>
+
+    <a href="https://www.bing.com/ck/a?!&&p=27112c781df34db7JmltdHM9MTcxNTQ3MjAwMCZpZ3VpZD0zYjNkZTMwNS03MTFhLTYzNDgtMjUyZC1mMDEzNzAxYjYyYjgmaW5zaWQ9NTIyOQ&ptn=3&ver=2&hsh=3&fclid=3b3de305-711a-6348-252d-f013701b62b8&psq=many+site&u=a1aHR0cHM6Ly9zaXRlZWZ5LmNvbS9ob3ctbWFueS13ZWJzaXRlcy1hcmUtdGhlcmUv&ntb=1">never visited</a>
+
+    <a href="https://www.programming-hero.com/">programming-hero a jao</a>
+
+    <a href="https://www.bing.com/ck/a?!&&p=eeabb542fe9c99e4JmltdHM9MTcxNTQ3MjAwMCZpZ3VpZD0zYjNkZTMwNS03MTFhLTYzNDgtMjUyZC1mMDEzNzAxYjYyYjgmaW5zaWQ9NTE4OA&ptn=3&ver=2&hsh=3&fclid=3b3de305-711a-6348-252d-f013701b62b8&psq=Fairoze+art+gallery&u=a1aHR0cHM6Ly93d3cueW91dHViZS5jb20vQGZhaXJvemVzYXJ0Z2FsbGVyeTY0ODE&ntb=1">channel a jao</a>
+    <br>
+    <h3>middle size header -1</h3>
+    <h3 class="special">middle size header -2</h3>
+    <h3>middle size header -3</h3>
+    <h3 class="special">middle size header -4</h3>
+    <h3 class="special">middle size header -5</h3>
+    <h3>middle size header -6</h3>
+    <ul>
+        <li>Alia</li>
+        <li>Dalia</li>
+        <li>Kalia</li>
+        <li>Calia</li>
+        <li>Jalaia</li>
+        <li>Charaia</li>
+        <li>Maria</li>
+        <li>Faria</li>
+        <li>Jaria</li>
+    </ul>
+</body>
+</html>
